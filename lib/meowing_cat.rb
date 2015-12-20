@@ -1,5 +1,5 @@
 ## code your solution here.
-require "pry"
+
 
 class Cat 
  
@@ -11,4 +11,3 @@ class Cat
  end
 
 end  
-binding.pry
