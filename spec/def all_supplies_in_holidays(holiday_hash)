@@ -1,0 +1,11 @@
+def all_supplies_in_holidays(holiday_hash)
+
+  holiday_hash.each do |quarter, day|
+    puts "#{quarter.to_s.capitalize}:"
+    day.collect do |holiday, item|
+      holiday_name = holiday.to_s.split("_")
+      holiday_name.collect {|name| name.capitalize!}.join(" ")
+      puts "  #{holiday_name.join(" ")}: #{item.join(", ")}"
+    end
+  end
+end
