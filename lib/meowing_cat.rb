@@ -1,7 +1,4 @@
 class Cat
-  def initalize(name)
-    @name = name
-  end
 
   attr_accessor :name
 
