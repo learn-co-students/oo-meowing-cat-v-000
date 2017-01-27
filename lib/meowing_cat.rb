@@ -9,3 +9,4 @@ end
 maru = Cat.new
 maru.name = "Maru"
 maru.meow
+#https://www.tutorialspoint.com/cgi-bin/printpage.cgi
