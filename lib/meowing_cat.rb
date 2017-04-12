@@ -1,1 +1,10 @@
-## code your solution here. 
+#   ~~~HAVICK WAS HERE~~~
+
+class Cat
+  attr_accessor :name
+
+  def meow
+    puts "meow!"
+  end
+
+end
