@@ -1,6 +1,7 @@
 class Cat
   attr_accessor :name
-
+  attr_accessor :meow
+  
 end
 
 def meow
@@ -13,4 +14,6 @@ end
 
 specific_meowing_cat = Cat.new
 
-specific_meowing_cat.meow = "Meow"
+specific_meowing_cat.meow = "meow!"
+
+puts specific_meowing_cat
