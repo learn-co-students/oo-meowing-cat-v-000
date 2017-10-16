@@ -1,9 +1,14 @@
 class Cat
   attr_accessor :name
-  def meow(meowing_cat)
-    meowing_cat = Cat.new
+  def meow
+    puts "meow!"
   end
 end
+
+# garfield = Cat.new
+# garfield.name = "Garfield"
+# garfield.name => "Garfield"
+# garfield.meow puts "meow!"
 
 # specific_meowing_cat = Cat.new
 #
