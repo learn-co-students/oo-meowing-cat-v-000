@@ -1,25 +1,16 @@
 ## code your solution here.
 class Cat
+  # attr_accessor across multiple classes?
+  attr_accessor :name, :meow
 
-  # def initialize(name)
-  #   @name = name
-  #
-  # end
-
-  def name
-  attr_accessor :name
+ def meow
+    puts "meow!"
   end
 
-  def meow
-    attr_accessor :meow
-
-  end
 end
-
 
 maru = Cat.new
 maru.name = "Maru"
-
 maru.name
 # => "Maru"
 
