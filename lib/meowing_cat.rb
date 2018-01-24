@@ -2,7 +2,7 @@ class Cat
   attr_accessor :name
   attr_reader :meow
 
-  def initialize
-    @meow = "meow!"
+  def meow
+    puts "meow!"
   end
 end
