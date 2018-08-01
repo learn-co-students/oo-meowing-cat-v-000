@@ -1,7 +1,7 @@
 ## code your solution here.
 class Cat
-  attr_accessor :name
-  def meow
-    puts "meow!"
+  attr_accessor :name, :meow
+  def initialize
+    @meow = puts "meow!"
   end
 end
