@@ -1,7 +1,7 @@
 class cat
-  def name
+  
   attr_accessor :name 
-  end
+  
 def meow
   
 end
