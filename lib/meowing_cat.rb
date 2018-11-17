@@ -1,6 +1,6 @@
 ## code your solution here.
 class Cat
-  attr_accessor :name
+  attr_accessor :name #macro that creates a setter & getter method
 
   def meow
     puts "meow!"
