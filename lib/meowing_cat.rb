@@ -12,6 +12,11 @@ def meow
   @meow
 end
 
+def meow=(meow)
+  @meow = meow
+
+end
+
 
 cat = Cat.new
 cat = cat.name
