@@ -1,24 +1,11 @@
 class Cat
-  attr_accessor :name
-  attr_accessor :meow
-
-end
-
-def name
-  @name
-end
+  attr_accessor :name, :meow #added meow, but didn't need to for passing this lab
 
 def meow
-  @meow
-end
-
-def meow=(meow)
-  @meow = meow
-
+  puts "meow!"
+  end
 end
 
 
-cat = Cat.new
-cat = cat.name
-cat = cat.meow
-cat.meow
+
+a_cat = Cat.new #Didn't need this step to pass the lab, but this step is correct
