@@ -1,7 +1,7 @@
 class Cat 
-   attr_accessor :name 
+   attr_accessor :name  #Macro
    
-  def meow 
+  def meow   #instance method 
   puts"meow!"
   end 
 end 
