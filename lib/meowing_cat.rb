@@ -1,1 +1,11 @@
-## code your solution here. 
+#updated 
+class Cat 
+attr_accessor :name, :meow 
+
+def meow
+  puts "meow!"
+end
+
+end 
+
+
