@@ -1,1 +1,5 @@
-## code your solution here. 
+def new_cat 
+  maru.name
+:name => {maru}
+end
+
